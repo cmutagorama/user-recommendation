@@ -2,7 +2,7 @@
 
 When you follow someone on Twitter, Facebook or Instagram, the website may recommend some close friends of this user to you. This web service implements a similar functionality based on the Twitter dataset we collected.
 
-Prior to running this API, make sure to load the raw dataset in a Postgres DB by running this [ETL](https://github.com/cmutagorama/etl-java).
+> Prior to running this API, make sure to load the raw dataset in a Postgres DB by running this [ETL](https://github.com/cmutagorama/etl-java).
 
 ### Request format
 
