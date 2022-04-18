@@ -47,7 +47,7 @@ When you follow someone on Twitter, Facebook or Instagram, the website may recom
 This API is built on top of the following stacks:
 - Spring boot v2.6.4 as a boilerplate
 - Apache maven v3.8.4 as a compiler & dependency manager
-- Postgresql v9+ as the storage
+- Postgresql v9+ for data persistence
 
 ## Prerequisites
 
