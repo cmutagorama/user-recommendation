@@ -10,6 +10,9 @@ import java.math.BigInteger;
 @Table(name = "hashtag")
 public class Hashtag {
     @Id
+    @Column(name = "id", nullable = false)
+    private Integer id;
+
     @Column(name = "tweet_id", nullable = false)
     private BigInteger tweetId;
 
@@ -25,6 +28,14 @@ public class Hashtag {
         this.tweetId = tweetId;
         this.userId = userId;
         this.hashtagName = hashtagName;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public BigInteger getTweetId() {
