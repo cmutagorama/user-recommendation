@@ -1,6 +1,6 @@
 # User recommendation API
 
-When you follow someone on Twitter, Facebook or Instagram, they may recommend you to follow some accounts based on who you follow or is following you. This web service implements a similar functionality based on a sample twitter dataset collected.
+When you follow someone on Twitter, Facebook or Instagram, they may recommend you to follow some of their followers or followings. This web service implements a similar functionality based on a sample twitter dataset collected.
 
 > Prior to running this API, make sure to load the raw dataset in a postgres database by running this [ETL](https://github.com/cmutagorama/etl-java).
 
